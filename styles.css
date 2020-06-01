@@ -600,7 +600,7 @@
                 }
                 
                 .list-item:nth-child(2) .item-header {
-                    font-size: 12px;
+                    letter-spacing: -2.5px;
                 }
                 
                 .list-item .item-content {
@@ -629,9 +629,21 @@
                 }
                 
                 .item-content .item-txt {
-                    font-size: 8.2px;
-                    /* font-size: 9.6px; */
+                    font-size: 8.92px;
                     line-height: 16px;
+                }
+                
+                .list-item:nth-child(2) .item-content .item-txt div:first-child {
+                    letter-spacing: -0.2px;
+                }
+                
+                .list-item:nth-child(3) .item-content .item-txt div:nth-child(2) {
+                    letter-spacing: -0.1px;
+                }
+                
+                .list-item:nth-child(4) .item-content .item-txt div:first-child {
+                    font-size: 8.5px;
+                    letter-spacing: -0.3px;
                 }
                 
                 .item-row {
@@ -934,17 +946,24 @@
                         margin-top: 0px;
                     }
                     .list-item .item-content .item-txt {
-                        font-size: 9.6px;
+                        font-size: 10.43px;
                         line-height: 19px;
                         margin-top: 0px;
                         margin-left: 0px;
+                    }
+                    .list-item:nth-child(2) .item-content .item-txt div:first-child {
+                        letter-spacing: -0.3px;
+                    }
+                    .list-item:nth-child(4) .item-content .item-txt div:first-child {
+                        font-size: 10.33px;
+                        letter-spacing: -0.8px;
                     }
                     .list-item:nth-child(3) .item-content .item-txt {
                         padding-left: 20px;
                         padding-right: 20px;
                     }
                     .list-item:nth-child(2) .item-header {
-                        font-size: 14px;
+                        letter-spacing: -3px;
                     }
                     .last-item {
                         width: 50%;
@@ -1113,15 +1132,26 @@
                         font-size: 15px;
                     }
                     .list-item .item-content .item-txt {
-                        font-size: 12px;
+                        font-size: 11px;
+                    }
+                    .list-item:nth-child(2) .item-content .item-txt {
+                        letter-spacing: -0.4px;
                     }
                     .list-item:nth-child(3) .item-content .item-img {
                         text-align: center;
                         margin-left: unset;
                         margin-right: unset;
                     }
+                    .list-item:nth-child(2) .item-content .item-txt {
+                        font-size: 10.53px;
+                        letter-spacing: -0.5px;
+                    }
+                    .list-item:nth-child(4) .item-content .item-txt {
+                        font-size: 10.53px;
+                        letter-spacing: -0.5px;
+                    }
                     .list-item:nth-child(2) .item-header {
-                        font-size: 11px;
+                        letter-spacing: -1px;
                     }
                     .list-item .item-header {
                         font-size: 16px;

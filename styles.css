@@ -9,8 +9,8 @@
                 @font-face {
                     font-family: 'a-shin-go-prom';
                     src: url('./fonts/a-otf-shingopro/ShinGoPro-Medium-AlphaNum.eot');
-                    src: url('./fonts/a-otf-shingopro/ShinGoPro-Medium-AlphaNum.eot?#iefix') format('embedded-opentype'), url('./fonts/a-otf-shingopro/ShinGoPro-Medium-AlphaNum.woff2') format('woff2'), url('./fonts/a-otf-shingopro/ShinGoPro-Medium-AlphaNum.woff') format('woff'), url('./fonts/a-otf-shingopro/ShinGoPro-Medium-AlphaNum.ttf') format('truetype'), url('./fonts/a-otf-shingopro/ShinGoPro-Medium-AlphaNum.svg#ShinGoPro-Medium-AlphaNum') format('svg');
-                    font-weight: 500;
+                    src: url('./fonts/a-otf-shingopro/ShinGoPro-Medium-AlphaNum.eot?#iefix') format('embedded-opentype'), url('./fonts/a-otf-shingopro/ShinGoPro-Medium-AlphaNum.svg#ShinGoPro-Medium-AlphaNum') format('svg'), url('./fonts/a-otf-shingopro/ShinGoPro-Medium-AlphaNum.ttf') format('truetype'), url('./fonts/a-otf-shingopro/ShinGoPro-Medium-AlphaNum.woff') format('woff'), url('./fonts/a-otf-shingopro/ShinGoPro-Medium-AlphaNum.woff2') format('woff2');
+                    font-weight: normal;
                     font-style: normal;
                 }
                 
@@ -431,6 +431,7 @@
                 
                 .s3-p2 .p2-title {
                     font-family: 'kozuka-go-prob';
+                    font-weight: bold;
                     font-size: 25px;
                     line-height: 21px;
                     padding-left: 10px;
@@ -544,6 +545,7 @@
                 
                 .s4-p2-title {
                     font-family: 'kozuka-go-prob';
+                    font-weight: bold;
                     font-size: 18px;
                     line-height: 20px;
                     margin-top: 40px;
@@ -589,6 +591,7 @@
                     width: 100%;
                     background-color: #1D2088;
                     font-family: 'a-shin-go-prob';
+                    font-weight: bold;
                     font-size: 15px;
                     line-height: 26px;
                     padding-top: 5px;
@@ -602,6 +605,7 @@
                 
                 .list-item .item-content {
                     font-family: 'a-shin-go-prom';
+                    font-weight: bold;
                 }
                 
                 .list-item:nth-child(3) .item-content .item-txt {

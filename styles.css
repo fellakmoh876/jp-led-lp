@@ -209,7 +209,7 @@ nav .logo {
 
 .contact .dial {
     width: 100%;
-    padding-top: 1px;
+    margin-top: -1px;
     margin-right: 5px;
 }
 
@@ -359,6 +359,7 @@ nav .logo {
     text-decoration: unset;
     margin-left: 100px;
     margin-top: 10px;
+    letter-spacing: 1.4px;
 }
 
 .s2-p2 .p2-btn a {
@@ -596,6 +597,10 @@ nav .logo {
     margin-right: 0px;
 }
 
+.list-item .item-header img {
+    width: 309px;
+}
+
 .list-item .item-content {
     padding-left: 10px;
     padding-right: 10px;
@@ -611,7 +616,8 @@ nav .logo {
     margin-left: auto;
 }
 
-.list-item .item-header {
+
+/* .list-item .item-header {
     width: 100%;
     background-color: #1D2088;
     font-family: 'a-shin-go-prob';
@@ -622,11 +628,12 @@ nav .logo {
     padding-bottom: 5px;
     border-radius: 6px;
     letter-spacing: 1.5px;
-}
+} */
 
-.list-item:nth-child(2) .item-header {
+
+/* .list-item:nth-child(2) .item-header {
     letter-spacing: -1px;
-}
+} */
 
 .list-item .item-content {
     font-family: 'a-shin-go-prom';

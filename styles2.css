@@ -644,21 +644,21 @@ nav .logo {
 
 
 /* .list-item .item-header {
-    width: 100%;
-    background-color: #1D2088;
-    font-family: 'a-shin-go-prob';
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 21px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 6px;
-    letter-spacing: 1.5px;
+  width: 100%;
+  background-color: #1D2088;
+  font-family: 'a-shin-go-prob';
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 6px;
+  letter-spacing: 1.5px;
 } */
 
 
 /* .list-item:nth-child(2) .item-header {
-    letter-spacing: -1px;
+  letter-spacing: -1px;
 } */
 
 .list-item .item-content {
@@ -997,16 +997,16 @@ nav .logo {
         display: none;
     }
     /* .list-item .item-header {
-        font-size: 18px;
-        line-height: 31px;
-        border-radius: 7px;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        -webkit-border-radius: 7px;
-        -moz-border-radius: 7px;
-        -ms-border-radius: 7px;
-        -o-border-radius: 7px;
-    } */
+      font-size: 18px;
+      line-height: 31px;
+      border-radius: 7px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      -webkit-border-radius: 7px;
+      -moz-border-radius: 7px;
+      -ms-border-radius: 7px;
+      -o-border-radius: 7px;
+  } */
     .list-item .item-content {
         padding-left: 10px;
         padding-right: 10px;
@@ -1039,8 +1039,8 @@ nav .logo {
         padding-right: 20px;
     }
     /* .list-item:nth-child(2) .item-header {
-        letter-spacing: -3px;
-    } */
+      letter-spacing: -3px;
+  } */
     .last-item {
         width: 50%;
         margin-top: 5px;
@@ -1090,11 +1090,11 @@ nav .logo {
         padding: 5px 0px 5px 10px;
     }
     /* .s1-bg2 {
-        display: none;
-    } */
+      display: none;
+  } */
     /* .s1-bg2 {
-        top: 25px;
-    } */
+      top: 25px;
+  } */
     .s1-p2 {
         margin-top: 2px;
     }
@@ -1102,7 +1102,8 @@ nav .logo {
         width: 99%;
     }
     .s1-bg2 img {
-        width: 203px;
+        width: 207px;
+        height: 282px;
     }
     .s1-p3 .p3-left .title {
         font-size: 27px;
@@ -1112,10 +1113,11 @@ nav .logo {
     }
     .s1-p3 .p3-right {
         position: absolute;
-        margin-top: -39px;
+        margin-top: -14px;
+        right: 0px;
     }
     .s1-p3 .p3-right img {
-        width: 60%;
+        width: 57%;
     }
     .section-2 {
         margin-top: -25px;
@@ -1328,10 +1330,10 @@ nav .logo {
 
 
 /* .bg-bg {
-    position: absolute;
-    width: 100%;
+  position: absolute;
+  width: 100%;
 }
 
 .bg-bg img {
-    width: 100%;
+  width: 100%;
 } */

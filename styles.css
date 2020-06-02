@@ -134,15 +134,15 @@ img {
 }
 
 .red {
-    color: #E60013;
+    color: #e60013;
 }
 
 .pink {
-    color: #CB67A4;
+    color: #cb67a4;
 }
 
 .orange {
-    color: #EC6800;
+    color: #ec6800;
 }
 
 .white {
@@ -150,19 +150,16 @@ img {
 }
 
 .blue {
-    color: #25BCEF;
+    color: #25bcef;
 }
 
 .container {
-    position: relative;
     max-width: 1000px;
     width: 100%;
+    position: relative;
     margin-right: auto;
     margin-left: auto;
 }
-
-
-/* Header */
 
 .header {
     width: 100%;
@@ -190,21 +187,21 @@ nav .logo {
 }
 
 .nav-subtitle {
+    font-family: 'dfg-maru-go-sb';
     font-size: 9px;
     line-height: 10px;
-    font-family: 'dfg-maru-go-sb';
 }
 
 .nav-title {
+    font-family: 'dfg-maru-go-sb';
     font-size: 28px;
     line-height: 30px;
-    font-family: 'dfg-maru-go-sb';
 }
 
 .contact .form {
     width: 100%;
-    padding-top: 5px;
     margin-right: 9px;
+    padding-top: 5px;
 }
 
 .contact .dial {
@@ -221,22 +218,26 @@ nav .logo {
 }
 
 .section-1 {
-    position: relative;
     background: url(./images/1x/section1-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    z-index: -2;
+    position: relative;
     padding: 15px;
+    z-index: -2;
 }
 
 .section-1 .s1-dfp-w7 {
+    font-family: 'dfp-hs-go-w7';
     width: 417px;
-    background-color: #E9EAEA;
+    background-color: #e9eaea;
     opacity: 0.79;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     border-radius: 10px;
     padding: 5px 0px 5px 17px;
-    font-family: 'dfp-hs-go-w7';
     font-size: 20px;
     line-height: 24px;
 }
@@ -266,15 +267,21 @@ nav .logo {
 }
 
 .s1-p3 .p3-left {
-    padding: 7px 11px;
     -webkit-box-shadow: inset -7px -7px 10px -2px rgba(0, 0, 0, 0.65);
     -moz-box-shadow: inset -7px -7px 10px -2px rgba(0, 0, 0, 0.65);
+    -ms-box-shadow: inset -7px -7px 10px -2px rgba(0, 0, 0, 0.65);
+    -o-box-shadow: inset -7px -7px 10px -2px rgba(0, 0, 0, 0.65);
     box-shadow: inset -7px -7px 10px -2px rgba(0, 0, 0, 0.65);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
     border-radius: 15px;
     margin-top: 9px;
     border: 2px solid rgba(0, 0, 0, 0.75);
     border-top: 2px solid rgba(0, 0, 0, 0.54);
     border-left: 2px solid rgb(0, 0, 0, 0.54);
+    padding: 7px 11px;
 }
 
 .s1-p3 .p3-left .title {
@@ -357,8 +364,16 @@ nav .logo {
     padding-right: 70px;
     margin-bottom: 15px;
     border: unset;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
     border-radius: 5px;
     cursor: pointer;
+    -webkit-text-decoration: unset;
+    -moz-text-decoration: unset;
+    -ms-text-decoration: unset;
+    -o-text-decoration: unset;
     text-decoration: unset;
     margin-left: 100px;
     margin-top: 10px;
@@ -1064,8 +1079,14 @@ nav .logo {
         line-height: 17px;
         letter-spacing: 0.3px;
     }
-    .s1-bg2 {
+    /* .s1-bg2 {
         display: none;
+    } */
+    .s1-bg2 {
+        top: 25px;
+    }
+    .s1-bg2 img {
+        width: 200px;
     }
     .s1-p3 .p3-left .title {
         font-size: 27px;

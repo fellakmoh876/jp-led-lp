@@ -169,7 +169,7 @@ img {
     height: 50px;
     background-color: #fff;
     padding-left: 11px;
-    padding-right: 15px;
+    padding-right: 11px;
 }
 
 .mob-header {
@@ -545,7 +545,7 @@ nav .logo {
     padding-left: 124px;
     padding-right: 40px;
     text-decoration: unset;
-    letter-spacing: 1px;
+    letter-spacing: 4px;
     border-radius: 5px;
     margin-top: 11px;
     margin-left: 20px;
@@ -553,13 +553,17 @@ nav .logo {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    -webkit-text-decoration: unset;
+    -moz-text-decoration: unset;
+    -ms-text-decoration: unset;
+    -o-text-decoration: unset;
 }
 
 .section-4 .s4-p1-btn span {
     font-size: 22px;
     line-height: 39px;
-    margin-left: 2px;
-    letter-spacing: 1px;
+    margin-left: 10px;
+    letter-spacing: 2px;
 }
 
 .section-4 .s4-p1-btn img {
@@ -661,7 +665,7 @@ nav .logo {
 }
 
 .item-content .item-txt {
-    font-size: 10px;
+    font-size: 8.5px;
     line-height: 16px;
 }
 

@@ -1062,7 +1062,7 @@ nav .logo {
 
 @media (max-width: 767px) {
     .container {
-        max-width: 540px;
+        max-width: 425px;
     }
     .header {
         display: none;
